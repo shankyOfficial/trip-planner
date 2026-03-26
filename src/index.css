@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Space+Grotesk:wght@400;500;600&display=swap');
+
+:root {
+  --bg: #0c1220;
+  --bg-accent: #111827;
+  --bg-strong: #060a12;
+  --text: #e2e8f0;
+  --text-soft: #94a3b8;
+  --text-light: #f1f5f9;
+  --accent: #38bdf8;
+  --accent-strong: #7dd3fc;
+  --accent-glow: rgba(56, 189, 248, 0.25);
+  --accent-border: rgba(56, 189, 248, 0.3);
+  --card: rgba(15, 23, 42, 0.9);
+  --surface-2: rgba(30, 41, 59, 0.9);
+  --surface-3: rgba(51, 65, 85, 0.7);
+  --surface-4: rgba(71, 85, 105, 0.55);
+  --progress-dot: #1e293b;
+  --progress-track: rgba(56, 81, 92, 0.2);
+  --hero-start: #0c1220;
+  --hero-mid: #0a0f1a;
+  --hero-end: #060a12;
+  --hero-glow: rgba(56, 189, 248, 0.15);
+  --bg-gradient-start: #0f172a;
+  --bg-gradient-end: #020617;
+  --border: rgba(148, 163, 184, 0.12);
+  --shadow: 0 18px 45px rgba(0, 0, 0, 0.5);
+  --shadow-soft: 0 12px 30px rgba(0, 0, 0, 0.35);
+
+  --sans: 'Space Grotesk', system-ui, sans-serif;
+  --heading: 'Playfair Display', 'Times New Roman', serif;
+
+  font: 16px/1.6 var(--sans);
+  color: var(--text);
+  background: var(--bg);
+  color-scheme: dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #0c1220;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: -50px;
+  background: 
+    url('https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?auto=format&fit=crop&w=2000&q=80') center/cover no-repeat;
+  opacity: 0.35;
+  z-index: -2;
+  transform: translateY(var(--bg-translate, 0)) scale(var(--bg-scale, 1));
+  transition: transform 0.1s ease-out;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: 
+    radial-gradient(ellipse at 20% 20%, rgba(56, 189, 248, 0.1) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 80%, rgba(14, 165, 233, 0.08) 0%, transparent 50%),
+    linear-gradient(180deg, rgba(12, 18, 32, 0.3) 0%, rgba(6, 10, 18, 0.7) 100%);
+  z-index: -1;
+  pointer-events: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--heading);
+  font-weight: 600;
+  color: var(--text);
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(2.6rem, 3.6vw, 3.9rem);
+  letter-spacing: -0.04em;
+}
+
+h2 {
+  font-size: clamp(1.5rem, 2.2vw, 2rem);
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+p {
+  margin: 0;
+  color: var(--text-soft);
+}
+
+button {
+  font-family: inherit;
+}
