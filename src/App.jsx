@@ -12,17 +12,14 @@ const itinerary = [
     from: 'Bangalore, India',
     to: 'Ho Chi Minh City, Vietnam',
     arrival: '14:30',
-    summary: 'Touch down in Saigon and dive into the vibrant city life.',
-    description:
-      'Arrive at Tan Son Nhat Airport, check into your hotel, and start exploring the bustling streets of Ho Chi Minh City. From historic landmarks to trendy cafes, the city awaits.',
     photo:
-      'https://images.unsplash.com/photo-1583417319070-4a69db38a482?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=1200&q=80',
     places: [
       { name: 'Saigon Central Post Office', image: 'https://images.unsplash.com/photo-1583417319070-4a69db38a482?auto=format&fit=crop&w=800&q=80' },
       { name: 'War Remnants Museum', image: 'https://images.unsplash.com/photo-1555921015-5532091f6026?auto=format&fit=crop&w=800&q=80' },
       { name: 'Cu Chi Tunnels', image: 'https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=800&q=80' },
       { name: 'Café Apartment Complex', image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Saigon Opera House', image: 'https://images.unsplash.com/photo-1562602833-0f4ab2fc46e5?auto=format&fit=crop&w=800&q=80' }
+      { name: 'Saigon Opera House', image: 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80' }
     ],
     mood: 'Historic charm meets modern energy.'
   },
@@ -30,137 +27,161 @@ const itinerary = [
     id: 'day-2',
     day: 2,
     date: '26th April',
-    title: 'Day 2 Title',
-    transport: 'taxi',
+    title: 'Fly to Phu Quoc & Sunset Markets',
+    transport: 'flight',
     from: 'Ho Chi Minh City',
-    to: 'Destination',
-    arrival: '09:00',
-    summary: 'Update summary here.',
-    description:
-      'Update description here.',
+    to: 'Phu Quoc Island',
+    arrival: '13:00',
     photo:
-      'https://images.unsplash.com/photo-1583417319070-4a69db38a482?auto=format&fit=crop&w=1200&q=80',
-    places: ['Place 1', 'Place 2', 'Place 3', 'Place 4', 'Place 5'],
-    mood: 'Update mood here.'
+      'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80',
+    places: [
+      { name: 'Long Beach (Bãi Trường)', image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80' },
+      { name: 'Dinh Cau Night Market', image: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80' },
+      { name: 'Sao Beach', image: 'https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=800&q=80' },
+      { name: 'Phu Quoc Prison', image: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80' },
+      { name: 'Duong Dong Town', image: 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80' }
+    ],
+    mood: 'Salt air and sunset lights.'
   },
   {
     id: 'day-3',
     day: 3,
     date: '27th April',
-    title: 'Day 3 Title',
-    transport: 'bus',
-    from: 'Location',
-    to: 'Destination',
+    title: 'Phu Quoc Island Adventure',
+    transport: 'bike',
+    from: 'Phu Quoc Island',
+    to: 'Phu Quoc Island',
     arrival: '09:00',
-    summary: 'Update summary here.',
-    description:
-      'Update description here.',
     photo:
-      'https://images.unsplash.com/photo-1583417319070-4a69db38a482?auto=format&fit=crop&w=1200&q=80',
-    places: ['Place 1', 'Place 2', 'Place 3', 'Place 4', 'Place 5'],
-    mood: 'Update mood here.'
+      'https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1200&q=80',
+    places: [
+      { name: 'Hon Thom Cable Car', image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80' },
+      { name: 'Sun World Hon Thom', image: 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=800&q=80' },
+      { name: 'Rach Vem Starfish Beach', image: 'https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=800&q=80' },
+      { name: 'Vinpearl Safari', image: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80' },
+      { name: 'Phu Quoc Pepper Farm', image: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80' }
+    ],
+    mood: 'Adventure on the island.'
   },
   {
     id: 'day-4',
     day: 4,
     date: '28th April',
-    title: 'Day 4 Title',
-    transport: 'bike',
-    from: 'Location',
-    to: 'Destination',
-    arrival: '09:00',
-    summary: 'Update summary here.',
-    description:
-      'Update description here.',
+    title: 'Fly to Da Nang & Riverside',
+    transport: 'flight',
+    from: 'Phu Quoc Island',
+    to: 'Da Nang',
+    arrival: '13:30',
     photo:
-      'https://images.unsplash.com/photo-1583417319070-4a69db38a482?auto=format&fit=crop&w=1200&q=80',
-    places: ['Place 1', 'Place 2', 'Place 3', 'Place 4', 'Place 5'],
-    mood: 'Update mood here.'
+      'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80',
+    places: [
+      { name: 'My Khe Beach', image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80' },
+      { name: 'Dragon Bridge', image: 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80' },
+      { name: 'Marble Mountains', image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80' },
+      { name: 'Han Market', image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80' },
+      { name: 'Son Tra Peninsula', image: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80' }
+    ],
+    mood: 'City lights and ocean air.'
   },
   {
     id: 'day-5',
     day: 5,
     date: '29th April',
-    title: 'Day 5 Title',
+    title: 'Hoi An Lanterns & Ba Na Hills',
     transport: 'car',
-    from: 'Location',
-    to: 'Destination',
+    from: 'Da Nang',
+    to: 'Hoi An',
     arrival: '09:00',
-    summary: 'Update summary here.',
-    description:
-      'Update description here.',
     photo:
-      'https://images.unsplash.com/photo-1583417319070-4a69db38a482?auto=format&fit=crop&w=1200&q=80',
-    places: ['Place 1', 'Place 2', 'Place 3', 'Place 4', 'Place 5'],
-    mood: 'Update mood here.'
+      'https://images.unsplash.com/photo-1482192505345-5655af888cc4?auto=format&fit=crop&w=1200&q=80',
+    places: [
+      { name: 'Hoi An Ancient Town', image: 'https://images.unsplash.com/photo-1482192505345-5655af888cc4?auto=format&fit=crop&w=800&q=80' },
+      { name: 'Japanese Covered Bridge', image: 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80' },
+      { name: 'An Bang Beach', image: 'https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=800&q=80' },
+      { name: 'Ba Na Hills', image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80' },
+      { name: 'Golden Bridge', image: 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=800&q=80' }
+    ],
+    mood: 'Lantern glow and mountaintop views.'
   },
   {
     id: 'day-6',
     day: 6,
     date: '30th April',
-    title: 'Day 6 Title',
+    title: 'Fly to Hanoi & Old Quarter',
     transport: 'flight',
-    from: 'Location',
-    to: 'Destination',
-    arrival: '09:00',
-    summary: 'Update summary here.',
-    description:
-      'Update description here.',
+    from: 'Da Nang',
+    to: 'Hanoi',
+    arrival: '14:00',
     photo:
-      'https://images.unsplash.com/photo-1583417319070-4a69db38a482?auto=format&fit=crop&w=1200&q=80',
-    places: ['Place 1', 'Place 2', 'Place 3', 'Place 4', 'Place 5'],
-    mood: 'Update mood here.'
+      'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=80',
+    places: [
+      { name: 'Hoan Kiem Lake', image: 'https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80' },
+      { name: 'St. Joseph Cathedral', image: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80' },
+      { name: 'Dong Xuan Market', image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80' },
+      { name: 'Hanoi Train Street', image: 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80' },
+      { name: 'Temple of Literature', image: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80' }
+    ],
+    mood: 'Street food and lantern-lit lanes.'
   },
   {
     id: 'day-7',
     day: 7,
     date: '1st May',
-    title: 'Day 7 Title',
+    title: 'Ha Long Bay Cruise',
     transport: 'bus',
-    from: 'Location',
-    to: 'Destination',
-    arrival: '09:00',
-    summary: 'Update summary here.',
-    description:
-      'Update description here.',
+    from: 'Hanoi',
+    to: 'Ha Long Bay',
+    arrival: '08:00',
     photo:
-      'https://images.unsplash.com/photo-1583417319070-4a69db38a482?auto=format&fit=crop&w=1200&q=80',
-    places: ['Place 1', 'Place 2', 'Place 3', 'Place 4', 'Place 5'],
-    mood: 'Update mood here.'
+      'https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80',
+    places: [
+      { name: 'Ha Long Bay', image: 'https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80' },
+      { name: 'Sung Sot Cave', image: 'https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=800&q=80' },
+      { name: 'Ti Top Island', image: 'https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=800&q=80' },
+      { name: 'Luon Cave', image: 'https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=800&q=80' },
+      { name: 'Bai Tu Long Bay', image: 'https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80' }
+    ],
+    mood: 'Blue water and limestone cliffs.'
   },
   {
     id: 'day-8',
     day: 8,
     date: '2nd May',
-    title: 'Day 8 Title',
-    transport: 'taxi',
-    from: 'Location',
-    to: 'Destination',
-    arrival: '09:00',
-    summary: 'Update summary here.',
-    description:
-      'Update description here.',
+    title: 'Sapa Valley & Fansipan',
+    transport: 'bus',
+    from: 'Hanoi',
+    to: 'Sapa',
+    arrival: '10:00',
     photo:
-      'https://images.unsplash.com/photo-1583417319070-4a69db38a482?auto=format&fit=crop&w=1200&q=80',
-    places: ['Place 1', 'Place 2', 'Place 3', 'Place 4', 'Place 5'],
-    mood: 'Update mood here.'
+      'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1200&q=80',
+    places: [
+      { name: 'Sapa Valley', image: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80' },
+      { name: 'Cat Cat Village', image: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80' },
+      { name: 'Silver Waterfall', image: 'https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=800&q=80' },
+      { name: 'Ham Rong Mountain', image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80' },
+      { name: 'Fansipan Cable Car', image: 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=800&q=80' }
+    ],
+    mood: 'Mist, peaks, and rice terraces.'
   },
   {
     id: 'day-9',
     day: 9,
     date: '3rd May',
-    title: 'Day 9 Title',
-    transport: 'car',
-    from: 'Location',
-    to: 'Destination',
-    arrival: '09:00',
-    summary: 'Update summary here.',
-    description:
-      'Update description here.',
+    title: 'Hanoi Cafés & Fly Home',
+    transport: 'flight',
+    from: 'Hanoi',
+    to: 'Bangalore, India',
+    arrival: '22:30',
     photo:
-      'https://images.unsplash.com/photo-1583417319070-4a69db38a482?auto=format&fit=crop&w=1200&q=80',
-    places: ['Place 1', 'Place 2', 'Place 3', 'Place 4', 'Place 5'],
-    mood: 'Update mood here.'
+      'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80',
+    places: [
+      { name: 'Egg Coffee Cafe', image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80' },
+      { name: 'West Lake', image: 'https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80' },
+      { name: 'Hanoi Opera House', image: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80' },
+      { name: 'Imperial Citadel', image: 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80' },
+      { name: 'Noi Bai Airport', image: 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80' }
+    ],
+    mood: 'Slow coffee and a final goodbye.'
   }
 ]
 
@@ -229,9 +250,16 @@ const fileToDataUrl = (file) =>
     reader.readAsDataURL(file)
   })
 
+const normalizeImageUrl = (url, size = '1600x900') => {
+  if (!url) return url
+  return url.includes('source.unsplash.com/featured')
+    ? url.replace('source.unsplash.com/featured', `source.unsplash.com/${size}`)
+    : url
+}
+
 function App() {
-  const [expandedId, setExpandedId] = useState(itinerary[0].id)
   const [activeId, setActiveId] = useState(itinerary[0].id)
+  const [activePhoto, setActivePhoto] = useState(null)
   const [dayData, setDayData] = useState({})
   const [dbNotice, setDbNotice] = useState('')
   const [isLoading, setIsLoading] = useState(true)
@@ -266,7 +294,10 @@ function App() {
             id: day.id,
             completed: false,
             photos: [],
-            notes: ''
+            notes: '',
+            placeInfo: {},
+            comments: [],
+            commentDraft: ''
           }
           acc[day.id] = { ...base, ...(storedMap[day.id] ?? {}) }
           return acc
@@ -401,7 +432,15 @@ function App() {
 
   const updateDay = (id, updater) => {
     setDayData((prev) => {
-      const current = prev[id] ?? { id, completed: false, photos: [], notes: '' }
+      const current = prev[id] ?? {
+        id,
+        completed: false,
+        photos: [],
+        notes: '',
+        placeInfo: {},
+        comments: [],
+        commentDraft: ''
+      }
       const updated = typeof updater === 'function' ? updater(current) : { ...current, ...updater }
       const next = { ...prev, [id]: updated }
 
@@ -413,6 +452,30 @@ function App() {
 
       return next
     })
+  }
+  const handleCommentSave = (dayId) => {
+    updateDay(dayId, (current) => {
+      const draft = (current.commentDraft ?? '').trim()
+      if (!draft) return current
+      const nextComment = {
+        id: `${Date.now()}-${Math.random().toString(16).slice(2)}`,
+        text: draft
+      }
+      return {
+        ...current,
+        comments: [...(current.comments ?? []), nextComment],
+        commentDraft: ''
+      }
+    })
+  }
+  const handleCommentCancel = (dayId) => {
+    updateDay(dayId, { commentDraft: '' })
+  }
+  const handleCommentRemove = (dayId, commentId) => {
+    updateDay(dayId, (current) => ({
+      ...current,
+      comments: (current.comments ?? []).filter((comment) => comment.id !== commentId)
+    }))
   }
 
   const handleToggleComplete = (event, id) => {
@@ -450,11 +513,35 @@ function App() {
       photos: current.photos.filter((photo) => photo.id !== photoId)
     }))
   }
+  const handlePhotoView = (photo) => {
+    setActivePhoto(photo)
+  }
+  const handlePhotoClose = () => {
+    setActivePhoto(null)
+  }
 
   const heroStart = itinerary[0]
   const heroEnd = itinerary[itinerary.length - 1]
-  const toggleSection = (id) => {
-    setExpandedId((prev) => (prev === id ? null : id))
+  const defaultPlaceInfo = {
+    openingTime: '',
+    ticketInfo: '',
+    bookingStatus: 'not_booked'
+  }
+  const handlePlaceInfoChange = (dayId, placeKey, field, value) => {
+    updateDay(dayId, (current) => {
+      const currentPlaceInfo = current.placeInfo?.[placeKey] ?? {}
+      return {
+        ...current,
+        placeInfo: {
+          ...(current.placeInfo ?? {}),
+          [placeKey]: {
+            ...defaultPlaceInfo,
+            ...currentPlaceInfo,
+            [field]: value
+          }
+        }
+      }
+    })
   }
   const handleDotClick = (id) => {
     const section = sectionRefs.current[id]
@@ -463,7 +550,6 @@ function App() {
     }
     activeIdRef.current = id
     setActiveId(id)
-    setExpandedId(id)
   }
   const activeIndex = Math.max(0, itinerary.findIndex((day) => day.id === activeId))
 
@@ -515,13 +601,31 @@ function App() {
             ))}
           </div>
         </div>
+        <div className="progress__mini">
+          {itinerary.map((day) => (
+            <button
+              type="button"
+              key={`${day.id}-mini`}
+              className={`mini-day ${day.id === activeId ? 'is-active' : ''}`}
+              onClick={() => handleDotClick(day.id)}
+            >
+              <span className="mini-day__number">Day {day.day}</span>
+            </button>
+          ))}
+        </div>
       </section>
 
       <main className="journey" ref={journeyRef}>
         {itinerary.map((day, index) => {
           const transport = transportMeta[day.transport]
-          const state = dayData[day.id] ?? { completed: false, photos: [], notes: '' }
-          const isExpanded = expandedId === day.id
+          const state = dayData[day.id] ?? {
+            completed: false,
+            photos: [],
+            notes: '',
+            placeInfo: {},
+            comments: [],
+            commentDraft: ''
+          }
           const isVisible = visibleDays[day.id]
           const isActive = activeId === day.id
           const isLast = index === itinerary.length - 1
@@ -553,7 +657,7 @@ function App() {
                   <div className="day-copy">
                     <div className="day-pill-row">
                       <span className="day-pill">Day {day.day}</span>
-                      <span className="day-date">{day.date}</span>
+                      <span className="day-date day-pill">{day.date}</span>
                       <span className={`status-pill ${state.completed ? 'is-done' : ''}`}>
                         {state.completed ? 'Completed' : 'In progress'}
                       </span>
@@ -563,7 +667,7 @@ function App() {
                     </div>
                     <div className="day-media">
                       <div className="day-photo">
-                        <img src={day.photo} alt={day.to} loading="lazy" />
+                        <img src={normalizeImageUrl(day.photo)} alt={day.to} loading="lazy" />
                       </div>
                       <div className="day-notes">
                         <label htmlFor={`${day.id}-notes`}>Plans &amp; to-dos</label>
@@ -574,13 +678,6 @@ function App() {
                           value={state.notes ?? ''}
                           onChange={(event) => updateDay(day.id, { notes: event.target.value })}
                         />
-                        <button
-                          type="button"
-                          className={`complete-btn ${state.completed ? 'is-complete' : ''}`}
-                          onClick={(event) => handleToggleComplete(event, day.id)}
-                        >
-                          {state.completed ? 'Completed ✓' : 'Mark as completed'}
-                        </button>
                       </div>
                     </div>
                   </div>
@@ -595,19 +692,68 @@ function App() {
                       {day.places.map((place, placeIndex) => {
                         const placeName = typeof place === 'string' ? place : place.name
                         const placeImage = typeof place === 'object' ? place.image : null
+                        const placeInfo = {
+                          ...defaultPlaceInfo,
+                          ...(state.placeInfo?.[placeName] ?? {})
+                        }
                         return (
                           <li 
                             key={placeName} 
                             style={{ 
                               transitionDelay: `${placeIndex * 0.1}s`,
-                              opacity: sectionValue > 0.2 + placeIndex * 0.08 ? 1 : 0,
-                              transform: sectionValue > 0.2 + placeIndex * 0.08 ? 'translateY(0)' : 'translateY(30px)',
-                              backgroundImage: placeImage ? `url(${placeImage})` : 'none',
-                              backgroundSize: 'cover',
-                              backgroundPosition: 'center'
+                              opacity: 1,
+                              transform: 'translateY(0)'
                             }}
                           >
-                            <span className="place-name">{placeName}</span>
+                            <div className="place-card">
+                              <div
+                                className="place-card__media"
+                                style={{
+                                  backgroundImage: placeImage
+                                    ? `url(${normalizeImageUrl(placeImage, '800x600')})`
+                                    : 'none'
+                                }}
+                              >
+                                <span className="place-name">{placeName}</span>
+                              </div>
+                              <div className="place-card__info">
+                                <label className="place-field">
+                                  <span>Opening time</span>
+                                  <input
+                                    type="text"
+                                    value={placeInfo.openingTime}
+                                    placeholder="09:00 – 17:00"
+                                    onChange={(event) =>
+                                      handlePlaceInfoChange(day.id, placeName, 'openingTime', event.target.value)
+                                    }
+                                  />
+                                </label>
+                                <label className="place-field">
+                                  <span>Ticket info</span>
+                                  <input
+                                    type="text"
+                                    value={placeInfo.ticketInfo}
+                                    placeholder="e.g. 250k VND"
+                                    onChange={(event) =>
+                                      handlePlaceInfoChange(day.id, placeName, 'ticketInfo', event.target.value)
+                                    }
+                                  />
+                                </label>
+                                <label className="place-field">
+                                  <span>Booking status</span>
+                                  <select
+                                    value={placeInfo.bookingStatus}
+                                    onChange={(event) =>
+                                      handlePlaceInfoChange(day.id, placeName, 'bookingStatus', event.target.value)
+                                    }
+                                  >
+                                    <option value="not_booked">Not booked</option>
+                                    <option value="requested">Requested</option>
+                                    <option value="booked">Booked</option>
+                                  </select>
+                                </label>
+                              </div>
+                            </div>
                           </li>
                         )
                       })}
@@ -619,7 +765,6 @@ function App() {
                   <div className="photos__header">
                     <div>
                       <h3>Your photos</h3>
-                      <p>Store memories for this landing zone in IndexedDB.</p>
                     </div>
                     <label
                       className="upload-btn"
@@ -636,33 +781,122 @@ function App() {
                     </label>
                   </div>
 
-                  <div className="photo-stack">
-                    {state.photos.length ? (
-                      state.photos.map((photo) => (
-                        <figure key={photo.id} className="photo-card">
+                  {state.photos.length ? (
+                    <div className="photo-stack">
+                      {state.photos.map((photo) => (
+                        <figure
+                          key={photo.id}
+                          className="photo-card"
+                          role="button"
+                          tabIndex={0}
+                          onClick={() => handlePhotoView(photo)}
+                          onKeyDown={(event) => {
+                            if (event.key === 'Enter' || event.key === ' ') {
+                              event.preventDefault()
+                              handlePhotoView(photo)
+                            }
+                          }}
+                        >
                           <button
                             className="photo-card__remove"
-                            onClick={() => handlePhotoRemove(day.id, photo.id)}
+                            onClick={(event) => {
+                              event.stopPropagation()
+                              handlePhotoRemove(day.id, photo.id)
+                            }}
                             aria-label="Remove photo"
                           >
                             ×
                           </button>
                           <img src={photo.url} alt={photo.name} loading="lazy" />
-                          <figcaption>{photo.name}</figcaption>
                         </figure>
-                      ))
-                    ) : (
-                      <div className="gallery__empty">
-                        No photos yet. Upload snapshots of this destination to keep it personal.
+                      ))}
+                    </div>
+                  ) : null}
+                  <div className="comment-box">
+                    <div className="comment-box__header">
+                      <h4>Comments</h4>
+                    </div>
+                    <textarea
+                      placeholder="Write a quick comment..."
+                      value={state.commentDraft ?? ''}
+                      onChange={(event) => updateDay(day.id, { commentDraft: event.target.value })}
+                      rows={3}
+                    />
+                    {state.commentDraft?.trim() ? (
+                      <div className="comment-actions">
+                        <button
+                          type="button"
+                          className="comment-action comment-action--save"
+                          onClick={() => handleCommentSave(day.id)}
+                          aria-label="Save comment"
+                        >
+                          ✓
+                        </button>
+                        <button
+                          type="button"
+                          className="comment-action comment-action--cancel"
+                          onClick={() => handleCommentCancel(day.id)}
+                          aria-label="Cancel comment"
+                        >
+                          ✕
+                        </button>
                       </div>
-                    )}
+                    ) : null}
+                    {state.comments?.length ? (
+                      <ul className="comment-list">
+                        {state.comments.map((comment) => (
+                          <li key={comment.id}>
+                            <span>{comment.text}</span>
+                            <button
+                              type="button"
+                              className="comment-remove"
+                              onClick={() => handleCommentRemove(day.id, comment.id)}
+                              aria-label="Remove comment"
+                            >
+                              ✕
+                            </button>
+                          </li>
+                        ))}
+                      </ul>
+                    ) : null}
                   </div>
+                </div>
+                <div className="day-actions day-actions--below">
+                  <button
+                    type="button"
+                    className={`complete-btn ${state.completed ? 'is-complete' : ''}`}
+                    onClick={(event) => handleToggleComplete(event, day.id)}
+                  >
+                    {state.completed ? 'Completed ✓' : 'Day Completed'}
+                  </button>
                 </div>
               </div>
             </article>
           )
         })}
       </main>
+      {activePhoto ? (
+        <div className="photo-viewer" role="dialog" aria-modal="true">
+          <div className="photo-viewer__content">
+            <button
+              type="button"
+              className="photo-viewer__close"
+              onClick={handlePhotoClose}
+              aria-label="Close photo"
+            >
+              ✕
+            </button>
+            <img src={activePhoto.url} alt={activePhoto.name} />
+            <p>{activePhoto.name}</p>
+          </div>
+          <button
+            type="button"
+            className="photo-viewer__backdrop"
+            onClick={handlePhotoClose}
+            aria-label="Close photo"
+          ></button>
+        </div>
+      ) : null}
     </div>
   )
 }
